@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Cerveja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> Calculador de Cerveja 🍻</header>
+    <section> 
+        <div>
+            <strong>Cervejas</strong>🍺 consumidas: <input type="number" name="quantc" id="quantc"> <br>
+            <br>
+            <strong>Pessoas</strong>👨🏻‍💼 participaram: <input type="number" name="quantp" id="quantp"> <br>
+        <div></div>
+        <br>
+            <input type="radio" name="tipo" id="litro">
+            <label for="litro"> Litrão (1L)</label>
+
+            <input type="radio" name="tipo" id="600">
+            <label for="600"> Garrafa (600ml)</label>
+
+            <input type="radio" name="tipo" id="lata">
+            <label for="lata"> Lata (350ml)</label>
+        </div>
+        <div>
+            <input type="button" value="CALCULAR" onclick="calcular()">
+        </div>
+
+        <div id="res">
+            Preencha os dados acima! 👆🏼
+        </div>
+    </section>
+    <footer>
+        Beba SEM moderação! 🔞
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

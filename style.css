@@ -1,0 +1,39 @@
+body{
+    background-image:url(https://images.pexels.com/photos/991970/pexels-photo-991970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    font: normal 15pt Arial;
+
+}
+
+header{
+    color: white; 
+    text-align: center;
+    font: normal 30pt DejaVu Sans Mono, monospace;
+    padding: 20px;
+    text-shadow: 0.06em 0.05em 0.20em rgb(7, 7, 7)
+    
+}
+
+section{
+    background: rgb(196, 181, 117);
+    border-radius: 10px; /*borda arredondada*/
+    padding: 30px; /*espaço entre o texto da caixa*/
+    width: 700px; /*largura da caixa*/
+    margin: auto; /*centralizar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.795); /*sombreamento*/
+
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    color: rgb(243, 240, 240);
+    text-align: center; /* Posição do texto */
+    font: normal 15pt OCR A Std, monospace;
+    padding: 10px;
+    text-shadow: 0.06em 0.05em 0.50em rgb(0, 0, 0)
+}
+
+
+
